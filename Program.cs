@@ -16,12 +16,9 @@ namespace TechnicalAssignment2a
 
                 if((value_of_input > 0) && (value_of_input <= 25))
                 {
-                    Console.WriteLine("Now executing a for loop!");
-                    Console.WriteLine("The for loop will now iterate " + value_of_input.ToString() + " times.");
-
                     for(int i = 0; i < value_of_input; i++)
                     {
-                        Console.WriteLine("Value of this variable i in this iteration is: " + i.ToString());
+                        Console.WriteLine("You have entered " + value_of_input.ToString() + ". This is the current integer value in the loop: " + i.ToString());
                     }
                     Console.WriteLine("Press any key to exit the program...");
                     Console.ReadKey(true);
